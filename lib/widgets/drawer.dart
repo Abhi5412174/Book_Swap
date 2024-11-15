@@ -67,7 +67,7 @@ class MyDrawer extends StatelessWidget {
                 ),
               ),
               onTap: () {
-                // Handle navigation or functionality here
+                // la hai ya bata navigate garne
               },
             ),
             ListTile(
@@ -83,7 +83,7 @@ class MyDrawer extends StatelessWidget {
                 ),
               ),
               onTap: () {
-                // Handle navigation or functionality here
+                Navigator.pushNamed(context, MyRoutes.addBooksRoute);
               },
             ),
             ListTile(
@@ -99,7 +99,7 @@ class MyDrawer extends StatelessWidget {
                 ),
               ),
               onTap: () {
-                // Handle navigation or functionality here
+                Navigator.pushNamed(context, MyRoutes.profileRoute);
               },
             ),
           ],

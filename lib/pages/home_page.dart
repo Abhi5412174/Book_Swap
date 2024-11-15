@@ -1,6 +1,6 @@
 import 'package:book_swap/models/books.dart';
-import 'package:book_swap/widgets/home_widgets/add_books.dart';
-import 'package:book_swap/widgets/home_widgets/bottom_navigation_panel.dart';
+import 'package:book_swap/pages/add_books.dart';
+import 'package:book_swap/pages/books.dart';
 import 'package:book_swap/utils/my_navigation_panel.dart';
 import 'package:book_swap/widgets/home_widgets/book_list.dart';
 import 'package:book_swap/widgets/drawer.dart';
